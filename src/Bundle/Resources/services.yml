@@ -1,0 +1,5 @@
+services:
+    Hostnet\Bundle\FinancialTwigExtensionBundle\FormatIbanExtension:
+        public: false
+        tags:
+            - twig.extension
